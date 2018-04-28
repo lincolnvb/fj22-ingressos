@@ -1,5 +1,6 @@
 package br.com.caelum.ingresso.controller;
 
+import br.com.caelum.ingresso.dao.FilmeDao;
 import br.com.caelum.ingresso.dao.SalaDao;
 import br.com.caelum.ingresso.model.Sala;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,8 @@ import java.util.Optional;
  */
 @Controller
 public class SalaController {
-
+	
+	
     @Autowired
     private SalaDao salaDao;
 
