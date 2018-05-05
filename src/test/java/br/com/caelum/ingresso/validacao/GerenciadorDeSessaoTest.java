@@ -11,6 +11,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import br.com.caelum.ingresso.model.Filme;
+import br.com.caelum.ingresso.model.Ingresso;
 import br.com.caelum.ingresso.model.Sala;
 import br.com.caelum.ingresso.model.Sessao;
 
