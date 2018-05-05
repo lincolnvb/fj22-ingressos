@@ -27,10 +27,10 @@ public class SessaoForm {
 	private LocalTime horario;
 	
 	public Sessao toSessao(SalaDao salaDao, FilmeDao filmeDao){
-		Filme filme = filmeDao.findOne(id);
+		Filme filme = filmeDao.findOne(filmeId);
 		Sala sala = salaDao.findOne(salaId);
 		
-		Sessao sessao = new Sessao(filme, sala,this.horario);
+		Sessao sessao = new Sessao(this.horario,filme, sala);
 		
 		return sessao;
 		
